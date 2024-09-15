@@ -1,3 +1,10 @@
-2+2
-2**3
-2/8
+#parentheses are not correctly balanced, it leads to syntax errors
+#Unmatched opening parenthesis:
+("hello world"
+#unmatched closing parenthesis
+("hello world"))
+#Missing parentheses in function calls
+print "Hello World"
+#Mismatched nested parentheses:
+result = (3 + 2) * (2 + (1 * 2
+
