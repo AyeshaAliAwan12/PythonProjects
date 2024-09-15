@@ -7,4 +7,14 @@
 print "Hello World"
 #Mismatched nested parentheses:
 result = (3 + 2) * (2 + (1 * 2
+# unbalanced or mismatched quotes (either single ' or double "), it will result in a SyntaxError
+message = 'Hello World''
+message = "Hello World'
+message = "Hello World
+message = 'Hello World
+#spacing does not affect the code's execution.
+result = 3+2*5
+print(result)  # Output: 13
+result = 3 + 2 * 5
+print(result)  # Output: 13
 
