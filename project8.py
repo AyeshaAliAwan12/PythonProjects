@@ -21,3 +21,35 @@ if "apple" in mixed_list:
 numbers = [5, 2, 9, 1, 5, 6]
 numbers.sort()
 print(numbers)
+# list comprehension 
+squared_numbers = [x**2 for x in range(6)]
+print(squared_numbers)
+cubed_Numbers=[6*x**3+2*x for x in range(8)]
+print(cubed_Numbers)
+numbers_varaible=[2*x**3 for x in range(67)]
+print(numbers_varaible)
+##example of how to create, manipulate, and work with list.
+project_list=['Operation Quack Build',
+'Brickzilla',
+'Mortar Kombat',
+'Concrete Jungle Boogie',
+'The Mighty Duck Build',
+'Hard Hat Hilarity',
+'Blockbuster Building',
+'Trowel and Error',
+'The Unlevelers',
+'Pylon Pals',
+'Mix-Up Mayhem']
+print(project_list)
+if "Hard Hat Hilarity" in project_list:
+    print("Hard Hat Hilarity project is in the list")
+project_list.sort() #for sorting list
+print(project_list)
+project_list.pop(-1) #remove the item at the last index
+print(project_list)
+project_list.remove("Blockbuster Building")#remove the occurrence
+print(project_list)
+project_list.insert(0,"Ash")
+print(project_list)
+project_list.sort() #for sorting list
+print(project_list)
